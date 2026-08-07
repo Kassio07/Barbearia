@@ -62,8 +62,3 @@ O projeto foi entregue com placeholders visuais (gradientes e SVGs) no lugar de 
 - Navegação completa por teclado, incluindo menu mobile, accordion do FAQ e lightbox da galeria.
 - `prefers-reduced-motion` respeitado globalmente.
 
-## Antes de publicar
-
-- Atualizar telefone, endereço, redes sociais e coordenadas do mapa com os dados reais da barbearia.
-- Substituir `https://www.oficiobarbearia.com.br/` pelo domínio definitivo em todas as meta tags e arquivos de SEO.
-- Trocar os placeholders visuais por fotografia profissional do espaço, da equipe e dos cortes.
