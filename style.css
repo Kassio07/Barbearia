@@ -246,7 +246,7 @@ input{ font: inherit; }
   background:
     linear-gradient(90deg, rgba(11,11,12,0.98) 0%, rgba(11,11,12,0.86) 42%, rgba(11,11,12,0.28) 100%),
     linear-gradient(0deg, rgba(11,11,12,0.72), rgba(11,11,12,0.08) 65%),
-    url("/assets/images/hero-barber.webp") center/cover no-repeat;
+    url("./assets/images/hero-barber.webp") center/cover no-repeat;
 }
 .hero__grid{
   position:absolute; inset:0;
@@ -421,12 +421,12 @@ input{ font: inherit; }
 .galeria__swatch{ position:absolute; inset:0; transition: transform var(--dur-med) var(--ease), filter var(--dur-med) var(--ease); }
 .galeria__item:hover .galeria__swatch{ transform: scale(1.06); filter: brightness(1.08); }
 .galeria__swatch{ background-position:center; background-size:cover; background-repeat:no-repeat; }
-.galeria__swatch--1{ background-image: url("/assets/images/gallery-razor.webp"); }
-.galeria__swatch--2{ background-image: url("/assets/images/gallery-haircut.webp"); }
-.galeria__swatch--3{ background-image: url("/assets/images/gallery-beard.webp"); }
-.galeria__swatch--4{ background-image: url("/assets/images/gallery-tools.webp"); }
-.galeria__swatch--5{ background-image: url("/assets/images/gallery-chair.webp"); }
-.galeria__swatch--6{ background-image: url("/assets/images/gallery-interior.webp"); }
+.galeria__swatch--1{ background-image: url("./assets/images/gallery-razor.webp"); }
+.galeria__swatch--2{ background-image: url("./assets/images/gallery-haircut.webp"); }
+.galeria__swatch--3{ background-image: url("./assets/images/gallery-beard.webp"); }
+.galeria__swatch--4{ background-image: url("./assets/images/gallery-tools.webp"); }
+.galeria__swatch--5{ background-image: url("./assets/images/gallery-chair.webp"); }
+.galeria__swatch--6{ background-image: url("./assets/images/gallery-interior.webp"); }
 
 @media (max-width: 760px){ .galeria__grid{ grid-template-columns: repeat(2,1fr); grid-auto-rows: 170px; } }
 
@@ -529,8 +529,8 @@ input{ font: inherit; }
 .ambiente__grid{ display:grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); align-items:center; }
 .ambiente__media{ display:grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
 .ambiente__frame{ border-radius: var(--radius-md); border: 1px solid var(--c-line); aspect-ratio: 1/1.1; }
-.ambiente__frame--1{ background: url("/assets/images/environment-main.webp") center/cover no-repeat; margin-top: 2rem; }
-.ambiente__frame--2{ background: url("/assets/images/gallery-interior.webp") center/cover no-repeat; }
+.ambiente__frame--1{ background: url("./assets/images/environment-main.webp") center/cover no-repeat; margin-top: 2rem; }
+.ambiente__frame--2{ background: url("./assets/images/gallery-interior.webp") center/cover no-repeat; }
 @media (max-width: 900px){ .ambiente__grid{ grid-template-columns: 1fr; } }
 
 /* ---------- STATS ---------- */
